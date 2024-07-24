@@ -1,39 +1,62 @@
-#projects {
-    padding: 40px;
-    background-color: #fff;
-    margin: 20px auto;
-    border-radius: 8px;
-    max-width: 1200px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+.skills-wrapper {
+    width: 100%;
+    background-color: #747474;
 }
 
-#projects h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.project-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.project-item {
-    flex: 1 1 calc(50% - 20px);
-    background-color: #f9f9f9;
+.skills {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    color: white; 
+    text-align: center; 
 }
 
-.project-item h2 {
-    margin-top: 0;
-    font-size: 1.5em;
-    color: #333;
+.skills h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: white; }
+
+.skills-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
-.project-item p {
-    color: #666;
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    font-size: 1.2rem;
+    color: white; 
+    display: block;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    background-color: #bbb; 
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.skill-percentage {
+    background-color: #333;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skill-percentage-text {
+    font-size: 1rem;
+    color: white;
+    display: block;
+    text-align: right;
+    margin-top: 5px;
 }

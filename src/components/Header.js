@@ -1,11 +1,7 @@
 import React from 'react';
 import '../styles/Header.css';
-
-// Importing social media icons
-import { FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
-
-// Logo image import
-import logo from '../assets/logopp.png'; // Ensure you have this image in the assets folder
+import { FaLinkedin, FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa';
+import logo from '../assets/logopp.png'; 
 
 const Header = () => (
     <header>
@@ -15,19 +11,19 @@ const Header = () => (
                 <ul>
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#projects">SKILLS</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
             <div className="social-icons">
-                <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/swetha-nethmi-77bb74279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
                 </a>
-                <a href="https://www.instagram.com/your-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/itsjustt.swetha?igsh=MWdrM2xnMzV2azZlag%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
                     <FaInstagram />
                 </a>
-                <a href="https://twitter.com/your-profile" target="_blank" rel="noopener noreferrer">
-                    <FaTwitter />
+                <a href="https://www.facebook.com/profile.php?id=100090886395344&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
+                    <FaFacebook />
                 </a>
             </div>
         </div>

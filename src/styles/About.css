@@ -1,19 +1,96 @@
-#about {
-    padding: 40px;
-    background-color: #f0f0f0;
-    margin: 20px auto;
-    border-radius: 8px;
-    max-width: 800px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.about {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-align: justify;
+    padding-bottom: 50px;
+    
 }
 
-#about h1 {
-    font-size: 2em;
+.me {
+    
+    font-size: 3rem;
+    font-weight: 500;
     margin-bottom: 20px;
     color: #333;
+    
 }
 
-#about p {
+.about p {
+    
+    padding-left: 00px;
+    font-size: 1.2rem;
     line-height: 1.6;
-    color: #666;
+    max-width: 800px;
+    margin-bottom: 30px;
+    color: #555;
 }
+
+.about button {
+    width: 250px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about button:hover {
+    background-color: #555;
+}
+.image{
+    width: 100%;
+}
+.myname{
+    font-size: 4rem;
+}
+
+.web{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #9d9d9d;
+}
+
+.about-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    
+}
+
+.text-overlay {
+position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.text-overlay h1, .text-overlay h2 {
+    margin: 0;
+    padding: 0;
+}
+.download-button {
+    display: inline-block;
+    
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+
+
+
