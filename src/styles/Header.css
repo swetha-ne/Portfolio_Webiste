@@ -1,7 +1,9 @@
 header {
-    background-color: #282c34;
-    color: #61dafb;
-    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -12,22 +14,24 @@ header {
 }
 
 .logo {
-    height: 50px; /* Adjust as needed */
+    height: 59px; /* Adjust as needed */
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 60px;
     margin: 0;
     padding: 0;
 }
 
 nav a {
-    color: #61dafb;
+    color: hsl(0, 0%, 0%);
     text-decoration: none;
-    font-weight: bold;
+    font-weight: lighter;
     transition: color 0.3s;
+    font-size: 20px;
+    
 }
 
 nav a:hover {
@@ -40,7 +44,7 @@ nav a:hover {
 }
 
 .social-icons a {
-    color: #61dafb;
+    color: #000000;
     font-size: 1.5em;
     transition: color 0.3s;
 }
